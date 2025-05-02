@@ -3,8 +3,7 @@ import numpy as np
 # Xác suất bắn trúng của Z là 30%
 p_Z = 0.3
 z=0
-a=np.array([0,0,0,0,0,0,0,0,0,0]) #tạo mảng lưu dữ liệu, mỗi phần tử lưu số lần bắn trúng mỗi
-lượt
+a=np.array([0,0,0,0,0,0,0,0,0,0]) #tạo mảng lưu dữ liệu, mỗi phần tử lưu số lần bắn trúng mỗi lượt
 for p in range(10):
 for i in range(10):
 if random.random() < p_Z:
